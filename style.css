@@ -184,7 +184,7 @@ body{
     }
 
     .text {
-        font-size: 4vw;
+        font-size: 6vw;
         text-align: center;
     }
 
@@ -201,7 +201,11 @@ body{
     }
 
     .message {
-        width: 70%;
+        width: 80%;
+        max-width:none;
+        left:50%;
+        transform:translate(-50%,-50%);
+        margin:20px auto;
         font-size: 14px;
     }
 }
